@@ -78,11 +78,11 @@ export default {
       (nome) =>
         (nome && nome.length <= 100) || "Name must be less than 100 characters",
     ],
-    Turma: "DS4P41",
+    Turma: "",
     turmaRules: [(turma) => !!turma || "Informe uma turma"],
-    RA: "G2688A0",
+    RA: "",
     raRules: [(ra) => !!ra || "Informe um RA"],
-    CPF: "29836562842",
+    CPF: "",
     cpfRules: [
       (cpf) => !!cpf || "Informe um CPF",
       // (cpf) => /^\d{3}\.\d{3}\.\d{3}-\d{2}$/.test(cpf) || "CPF must be valid",
